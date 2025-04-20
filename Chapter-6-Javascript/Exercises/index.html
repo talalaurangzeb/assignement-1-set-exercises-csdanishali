@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petrol Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Title with emoji -->
+    <h1><span class="emoji">&#x26FD;</span> ADNOC</h1>
+
+    <!-- Calculator Form -->
+    <form id="petrol-form">
+
+      <!-- Cost per liter -->
+      <label for="cost-per-liter">Cost per liter (dirhams):</label>
+      <input 
+        type="number" 
+        id="cost-per-liter" 
+        value="2.56"
+        step="0.01"
+      />
+
+      <!-- Liters purchased -->
+      <label for="liters">Amount in Liters:</label>
+      <input 
+        type="number" 
+        id="liters" 
+        value="0"
+        step="1"
+      />
+
+      <!-- Calculate Button -->
+      <button type="submit">Calculate Total</button>
+
+      <!-- Result -->
+      <p id="total-cost">Grand Total = </p>
+
+    </form>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
