@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sticky footer base layout */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  line-height: 1.6;       
+}
+
+/* Flex wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #899301;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #283593;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main layout */
+main {
+  flex: 1; /* Pushes footer down */
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+/* Columns */
+.column {
+  background: white;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Button styling */
+button {  
+  background-color: #798dff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+/* Footer */
+footer {
+  background-color: #040b33;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.button-image{
+  width: 600px;
+  margin-top: 200px;
+}
