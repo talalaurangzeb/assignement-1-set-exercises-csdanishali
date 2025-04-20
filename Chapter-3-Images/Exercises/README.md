@@ -8,11 +8,11 @@ For each exercise you should create a new folder with the name of the exercise a
 
 ### Three images :ballot_box_with_check:
 
-In a new index.html file display three images (that you would be legally allowed to use for a commercial project) and do the following: 
+ a new index.html file display three images (that you would be legally allowed to use for a commercial project) and do the following: 
 
 * Select a theme which ties all three images together.
 * Give each image an appropriate alt attribute.
-* Give each image appropriate width and height attributes (retaining its original aspect ratio). 
+* Give each image appropriate widtInh and height attributes (retaining its original aspect ratio). 
 * Give each image an appropriate title attribute.
 * Use CSS filters to change the appearance of all three of your images.
 * Ensure each image is under 300kb.
